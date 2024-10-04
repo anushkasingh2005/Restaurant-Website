@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+    <link rel="stylesheet" href="restraunt.css">
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h1>CULINARY CANOPY</h1>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#login">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+            <img src="https://static.toiimg.com/photo/51892394.cms" alt="Pizza">  <h3>Pizza</h3>
+            <p>Rs. 200</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://www.maspices.co.in/wp-content/uploads/2022/02/butter-chicken-.jpg" alt="Butter Chicken">
+                <h3>Butter Chicken</h3>
+                <p>Rs. 450</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ2WY2YmIJtXrpmDToEHwJIOAcyBefjpFwXg&s" alt="Paneer Tikka">
+                <h3>Paneer Tikka</h3>
+                <p>Rs. 350</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP8l2kuZDANQExDsYteLg0NEUEjLkjudABRg&s" alt="Chicken Biryani">
+                <h3>Biryani</h3>
+                <p>Rs. 400</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://www.kitchensanctuary.com/wp-content/uploads/2023/10/Samosa-square-FS.jpg" alt="Samosa">
+                <h3>Samosa</h3>
+                <p>Rs. 50</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://www.daringgourmet.com/wp-content/uploads/2023/06/Dosa-Recipe-3.jpg" alt="Dosa">
+                <h3>Dosa</h3>
+                <p>Rs. 250</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://www.pillsbury.in/wp-content/uploads/2021/09/Idli.jpg" alt="Idli">
+                <h3>Idli</h3>
+                <p>Rs. 200</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://bonmasala.com/wp-content/uploads/2022/12/medu-vada-recipe.webp" alt="Vada">
+                <h3>Vada</h3>
+                <p>Rs. 150</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8YKbvn1KSRNdxrw-fcjifznrh0GlcuCJSog&s" alt="Jalebi">
+                <h3>Jalebi</h3>
+                <p>Rs. 100</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://cdn.zeptonow.com/production///tr:w-600,ar-100-100,pr-true,f-auto,q-80/web/recipes/gulab-jamun.png" alt="Gulab Jamun">
+                <h3>Gulab Jamun</h3>
+                <p>Rs. 80</p>
+            </div>
+            <div class="menu-item">
+                <img src="https://www.secondrecipe.com/wp-content/uploads/2021/05/mango-kulfi.jpg" alt="Kulfi">
+                <h3>Kulfi</h3>
+                <p>Rs. 120</p>
+            </div>
+        </div>
+            
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <br>
+        <h3>Our restraunt is open in all days of the week except monday.<br>
+        There is also home delivery available in our restraunt with no extra charges.</h3>
+        </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <br>
+        <h3>Our contact details are:- <br>
+        Mobile Number:-1234567895<br>
+        Email id= abcdef2345@gmail.com</h3>
+        </section>
+
+    <section id="login">
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="contact-number">Contact Number:</label>
+            <input type="text" id="contact-number" name="contact-number" required>
+            <label for="otp">OTP:</label>
+            <input type="text" id="otp" name="otp" required>
+            <label for="captcha">Captcha:</label>
+            <div id="capcha-image"></div>
+            <input type="text" id="captcha-input" name="captcha-input" required>
+            <button type="submit">Login</button>
+        </form>
+    </section>
+    <section id="billing">
+        <h2>Billing Details</h2>
+        <div id="order-summary">
+            </div>
+        <p id="total-amount"></p>
+    
+        <form id="billing-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+    
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" required>
+    
+            <label for="payment-method">Payment Method:</label>
+            <select id="payment-method" name="payment-method">
+                <option value="cash">Cash</option>
+                <option value="net-banking">Net Banking</option>
+                <option value="upi">UPI</option>
+            </select>
+    
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <script src="restraunt.js"></script>
+</body>
+</html>

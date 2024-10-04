@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    color: rgb(226, 6, 79);
+    text-align: center;
+    text-decoration: underline;
+    background-image: url("https://img.freepik.com/free-photo/cutlery-near-twig-leaves_23-2147811214.jpg");
+    background-size: cover;
+    background-position: center;  
+}
+header nav {
+    text-align: center;
+    text-decoration: underline;
+    color: palevioletred;
+    padding: 20px;
+    border-color: palevioletred;
+    border-top-left-radius: 10px,10px,10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color: palevioletred;
+}
+
+
+header nav ul li {
+    border: 5px solid rgb(226, 6, 79); /* Adjust the border color and style as needed */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+header nav ul li a {
+    color: rgb(236, 6, 83);
+    text-decoration: underline; 
+}
+
+#hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+#menu {
+    text-align: center;
+    padding: 50px;
+    color: palevioletred;
+    text-decoration: underline;
+}
+
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+.menu-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns as needed */
+    grid-gap: 20px;
+    color: palevioletred;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 200px; /* Adjust the height as needed */
+    object-fit: cover;
+}
+
+
+#about, #contact {
+    padding: 50px;
+    color: palevioletred;
+    text-decoration: underline;
+}
+#about h3, #contact h3{
+    color: palevioletred;
+    padding: 50px;
+}
+
+#login {
+    text-align: center;
+    padding: 50px;
+    color: palevioletred;
+    text-decoration: underline;
+}
+
+#captcha-image {
+    width: 200px;
+    height: 100px;
+}
+/* ... (rest of your CSS code) ... */
+
+#order-summary {
+    margin-bottom: 20px;
+}
+
+#order-summary p {
+    margin-bottom: 5px;
+}
